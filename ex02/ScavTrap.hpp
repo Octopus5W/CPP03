@@ -6,7 +6,7 @@
 /*   By: hdelbecq <hdelbecq@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/16 09:18:54 by hdelbecq          #+#    #+#             */
-/*   Updated: 2025/06/26 23:21:15 by hdelbecq         ###   ########.fr       */
+/*   Updated: 2025/07/01 13:46:36 by hdelbecq         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ class ScavTrap : public ClapTrap {
 		~ScavTrap();
 
 		void guardGate();
+		void attack(const std::string& target);
 		
 };
 
